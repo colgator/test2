@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "allure_test",
+    "children" : [ {
+      "name" : "測試標題：用例二",
+      "uid" : "ed0ac46d5394b5c8",
+      "parentUid" : "541ecd899efaad756cde1f2624c42e20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624352601844,
+        "stop" : 1624352601844,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_one",
+      "uid" : "d5374b4d5efabce8",
+      "parentUid" : "541ecd899efaad756cde1f2624c42e20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624513771236,
+        "stop" : 1624513773701,
+        "duration" : 2465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "541ecd899efaad756cde1f2624c42e20"
+  } ]
+}

@@ -1,0 +1,65 @@
+{
+  "uid" : "fd06e168148f0365",
+  "name" : "測試標題：用例一",
+  "fullName" : "allure_test.TestPytestOne#test_one",
+  "historyId" : "5da8c163896fdfb528266ceacfcf9bb5",
+  "time" : {
+    "start" : 1624352601827,
+    "stop" : 1624352601827,
+    "duration" : 0
+  },
+  "description" : "測試用例描述：用例一",
+  "descriptionHtml" : "<p>測試用例描述：用例一</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2",
+  "statusTrace" : "self = <allure_test.TestPytestOne object at 0x000002D0A6B1D608>\n\n    @allure.story('用戶故事描述：用例一')\n    @allure.title('測試標題：用例一')\n    @allure.description('測試用例描述：用例一')\n    @allure.testcase('測試用例地址://www.baidu.com/')\n    @allure.tag('測試用例標籤：用例一')\n    def test_one(self):\n        print('first case')\n>       assert 1==2\nE       assert 1 == 2\n\nallure_test.py:12: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "測試用例標籤：用例一"
+  }, {
+    "name" : "story",
+    "value" : "用戶故事描述：用例一"
+  }, {
+    "name" : "suite",
+    "value" : "allure_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPytestOne"
+  }, {
+    "name" : "host",
+    "value" : "NF-21HW-NB00026"
+  }, {
+    "name" : "thread",
+    "value" : "21816-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "allure_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "測試用例地址://www.baidu.com/",
+    "url" : "測試用例地址://www.baidu.com/",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "測試用例標籤：用例一" ]
+  },
+  "source" : "fd06e168148f0365.json",
+  "parameterValues" : [ ]
+}

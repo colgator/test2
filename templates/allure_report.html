@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+    {% block title %}Allure Report{% endblock %}
+{%block head %}
+    {{ super() }}
+    <style type="text/css">
+    </style>
+{% endblock %} 
+{% block script %}
+    <link rel="favicon" href="{{url_for('static', filename='allure_report/favicon.ico') }}">
+    <link rel="stylesheet" href="{{url_for('static', filename='allure_report/styles.css') }}">
+    <script src="{{url_for('static', filename='allure_report/app.js') }}"></script>
+    <script src="{{url_for('static' ,filename='allure_report/plugins/behaviors/index.js') }}"></script>
+    <script src="{{url_for('static' ,filename='allure_report/plugins/packages/index.js') }}"></script>
+    <script src="{{url_for('static' ,filename='allure_report/plugins/screen-diff/index.js') }}"></script>
+    <script src="/static/allure_report/widgets"></script>
+{% endblock %} 
+{% block main %}
+    <div id="alert"></div>
+    <div id="content">
+        <span class="spinner">
+            <span class="spinner__circle"></span>
+        </span>
+    </div>
+    <div id="popup"></div>
+{% endblock %} 
+
+

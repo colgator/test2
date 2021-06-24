@@ -1,0 +1,78 @@
+{
+  "uid" : "3ab4014d0b3a291f",
+  "name" : "登入網址是否健康測試 Pass!",
+  "fullName" : "allure_test.TestPytestOne#test_one",
+  "historyId" : "5da8c163896fdfb528266ceacfcf9bb5",
+  "time" : {
+    "start" : 1624360131998,
+    "stop" : 1624360132417,
+    "duration" : 419
+  },
+  "description" : "測試用例描述：用例一",
+  "descriptionHtml" : "<p>測試用例描述：用例一</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1624360130802,
+      "stop" : 1624360131995,
+      "duration" : 1193
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "測試用例標籤：用例一"
+  }, {
+    "name" : "story",
+    "value" : "用戶故事描述：用例一"
+  }, {
+    "name" : "suite",
+    "value" : "allure_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPytestOne"
+  }, {
+    "name" : "host",
+    "value" : "NF-21HW-NB00026"
+  }, {
+    "name" : "thread",
+    "value" : "21696-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "allure_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "測試用例地址://www.baidu.com/",
+    "url" : "測試用例地址://www.baidu.com/",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "測試用例標籤：用例一" ]
+  },
+  "source" : "3ab4014d0b3a291f.json",
+  "parameterValues" : [ ]
+}

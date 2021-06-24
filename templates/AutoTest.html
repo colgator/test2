@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+    {% block title %}自動化測試{% endblock %}
+    {%block head %}
+    {{ super() }}
+    <style type="text/css">
+    </style>
+{% endblock %} 
+
+{% block script %}
+    <script type="text/javascript">
+        function check() {
+            button_disabled('.submit')
+            $.ajax({
+                url: '/AutoTest',
+                type: 'POST',
+                headers: {Accept: "application/json; charset=utf-8"},
+                data: $('#form1').serialize(),
+                success: function (data) {
+                    console.log(data)
+                    $(window).attr("location", "/Allure_Report")
+                    button_RemoveDisabeld('.submit')
+                }
+            })
+        }
+    </script>
+{% endblock %} 
+{% block main %}
+<form id='form1' method='POST'>
+    <label>SB_連結</label>
+    <select name='url' id='url_id'>
+        {% for name in url_dict %}
+            <option value= {{name}}>{{url_dict[name]}}</option>
+        {% endfor %}
+    </select>
+    <p><input type="button" onclick="check()"  class='submit' value="執行"></p>
+</form>
+{% endblock %}

@@ -1,0 +1,68 @@
+{
+  "uid" : "35eab05be31c07a2",
+  "name" : "test_one",
+  "fullName" : "allure_test.TestPytestOne#test_one",
+  "historyId" : "5da8c163896fdfb528266ceacfcf9bb5",
+  "time" : {
+    "start" : 1624461877842,
+    "stop" : 1624461877842,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('Conft', <FixtureRequest for <Function test_one>>)",
+  "statusTrace" : "file c:\\Python_Project\\allure_test.py, line 10\n      @allure.story('用戶故事描述：用例一')\n      @allure.title('測試標題：用例一')\n      @allure.description('測試用例描述：用例一')\n      @allure.testcase('測試用例地址://www.baidu.com/')\n      @allure.tag('測試用例標籤：用例一')\n      def test_one(self,browser,Conft):\nE       fixture 'Conft' not found\n>       available fixtures: browser, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nc:\\Python_Project\\allure_test.py:10",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1624461877843,
+      "stop" : 1624461879023,
+      "duration" : 1180
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "allure_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPytestOne"
+  }, {
+    "name" : "host",
+    "value" : "NF-21HW-NB00026"
+  }, {
+    "name" : "thread",
+    "value" : "15840-Thread-6"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "allure_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35eab05be31c07a2.json",
+  "parameterValues" : [ ]
+}
