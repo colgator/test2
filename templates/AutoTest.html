@@ -3,6 +3,7 @@
     {%block head %}
     {{ super() }}
     <style type="text/css">
+    
     </style>
 {% endblock %} 
 
@@ -11,13 +12,13 @@
         function check() {
             button_disabled('.submit')
             $.ajax({
-                url: '/AutoTest',
+                url: '/SbAutoTest',
                 type: 'POST',
                 headers: {Accept: "application/json; charset=utf-8"},
                 data: $('#form1').serialize(),
                 success: function (data) {
                     console.log(data)
-                    $(window).attr("location", "/Allure_Report")
+                    $(window).attr("location", "/static/allure_report/index.html")
                     button_RemoveDisabeld('.submit')
                 }
             })

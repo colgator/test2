@@ -1,5 +1,6 @@
-import pytest
+import pytest, subprocess
 from selenium import webdriver
+
 driver = None
 
 
@@ -10,5 +11,4 @@ def browser():
         driver = webdriver.Chrome()
         driver.maximize_window()
     return driver
-
 

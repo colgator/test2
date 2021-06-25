@@ -1,5 +1,4 @@
-import requests,os, subprocess
-
+import requests,subprocess
 class Evn:
     def __init__(self):
         self.url_dict = {0: 'http://www.athena000.com/NewIndex',
@@ -18,7 +17,4 @@ class Evn:
         popen_path = 'allure generate reports -o static/allure_report --clean'
         p = subprocess.Popen(popen_path,stdout=subprocess.PIPE, stderr=subprocess.PIPE, 
         shell=True, universal_newlines=True)
-        print(p.communicate())
-
-
-#In[]
+        return p.communicate()
